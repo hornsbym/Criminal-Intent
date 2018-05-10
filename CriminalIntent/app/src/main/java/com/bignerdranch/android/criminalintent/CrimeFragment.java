@@ -12,7 +12,10 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
+import static android.widget.CompoundButton.*;
+
 public class CrimeFragment extends Fragment {
+
     private Crime mCrime;
     private EditText mTitleField;
     private Button mDateButton;
